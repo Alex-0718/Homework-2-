@@ -93,7 +93,7 @@ contract Arbitrage is Test {
         /**
          * Please add your solution above
          */
-        uint256 tokensAfter = tokenB.balanceOf(arbitrager); 
+        uint256 tokensAfter = tokenB.balanceOf(arbitrager);
         assertGt(tokensAfter, 20 ether);
         console.log("After Arbitrage tokenB Balance: %s", tokensAfter);
     }
