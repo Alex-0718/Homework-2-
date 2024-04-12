@@ -89,7 +89,7 @@ contract Arbitrage is Test {
         uint256 amountToSwap = 5 ether;
         uint256 deadline = block.timestamp + 300;
 
-        uint256[] memory amounts = router.swapExactTokensForTokens(amountToSwap, 0, newPath, arbitrager, deadline);
+        uint256[] memory amounts = router.swapExactTokensForTokens(amountToSwap, 0, newPath, arbitrager, deadline); 
         /**
          * Please add your solution above
          */
