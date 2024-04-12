@@ -89,11 +89,11 @@ contract Arbitrage is Test {
         uint256 amountToSwap = 5 ether;
         uint256 deadline = block.timestamp + 300;
 
-        uint256[] memory amounts = router.swapExactTokensForTokens(amountToSwap, 0, newPath, arbitrager, deadline); 
+        uint256[] memory amounts = router.swapExactTokensForTokens(amountToSwap, 0, newPath, arbitrager, deadline);     
         /**
          * Please add your solution above
          */
-        uint256 tokensAfter = tokenB.balanceOf(arbitrager);
+        uint256 tokensAfter = tokenB.balanceOf(arbitrager); 
         assertGt(tokensAfter, 20 ether);
         console.log("After Arbitrage tokenB Balance: %s", tokensAfter);
     }
