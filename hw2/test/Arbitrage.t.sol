@@ -79,7 +79,7 @@ contract Arbitrage is Test {
         /**
          * Please add your solution below
          */
-        address[] memory newPath = new address[](5)
+        address[] memory newPath = new address[](5);
         newPath[0] = address(tokenB);
         newPath[1] = address(tokenA);
         newPath[2] = address(tokenD);
@@ -88,7 +88,7 @@ contract Arbitrage is Test {
 
         uint256 amountToSwap = 5 ether;
         uint256 deadline = block.timestamp + 300;
-        
+
         uint256[] memory amounts = router.swapExactTokensForTokens(amountToSwap, 0, newPath, arbitrager, deadline);
         /**
          * Please add your solution above
