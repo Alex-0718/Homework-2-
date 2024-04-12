@@ -9,11 +9,11 @@ Provide your profitable path, the amountIn, amountOut value for each swap, and y
 
 tokenB -> tokenA -> tokenD -> tokenC -> tokenB
 
-swap, tokenB -> tokenA, AmountIn = 5000000000000000000, AmountOut = 5655321988655321988 
-swap, tokenA -> tokenD, AmountIn = 5655321988655321988, AmountOut = 2458781317097933552 
-swap, tokenD -> tokenC, AmountIn = 2458781317097933552, AmountOut = 5088927293301515695 
-swap, tokenB -> tokenA, AmountIn = 5000000000000000000, AmountOut = 5655321988655321988 
-swap, tokenB -> tokenA, AmountIn = 5000000000000000000, AmountOut = 5655321988655321988 
+swap, tokenB -> tokenA, AmountIn = 5000000000000000000, AmountOut = 5655321988655321988  
+swap, tokenA -> tokenD, AmountIn = 5655321988655321988, AmountOut = 2458781317097933552  
+swap, tokenD -> tokenC, AmountIn = 2458781317097933552, AmountOut = 5088927293301515695  
+swap, tokenB -> tokenA, AmountIn = 5000000000000000000, AmountOut = 5655321988655321988  
+swap, tokenB -> tokenA, AmountIn = 5000000000000000000, AmountOut = 5655321988655321988  
 
 the final tokenB balance: 20129888944077446732
 
